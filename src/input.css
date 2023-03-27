@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities{
+    .hover\:bg-bar:hover{
+        background-color: cyan;
+    }
+}
+#hovering:hover {
+    background-image: linear-gradient(to right bottom,cyan cyan),url(/src/images/image-avatar.png);
+}
+#second-first{
+   padding-top: 60px;
+  
+ 
+}
